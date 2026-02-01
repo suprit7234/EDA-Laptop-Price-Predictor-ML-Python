@@ -1,2 +1,1 @@
-streamlit
-sklearn
+pip install streamlit scikit-learn pandas numpy

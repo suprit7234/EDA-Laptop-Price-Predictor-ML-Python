@@ -53,3 +53,20 @@ Laptop-Pred-ML/
 ```bash
 git clone https://github.com/suprit7234/laptop-price-predictor.git
 cd laptop-price-predictor
+
+Install dependencies:
+pip install -r requirements.txt
+
+Run the app:
+streamlit run Lap-app.py
+
+Model Details:
+Type: Regression model with preprocessing pipeline (ColumnTransformer)
+Features: Company, TypeName, RAM, Weight, Touchscreen, IPS, Inches, PPI, CPU, HDD, SSD, GPU, OS
+Target: Laptop price (log-transformed during training)
+
+Author
+
+Suprit
+GitHub: https://github.com/suprit7234
+LinkedIn: www.linkedin.com/in/suprit-tapase-637541294
